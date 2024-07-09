@@ -1,11 +1,32 @@
 body{
-    background-color: lightcoral;
+    background-color: white;
 }
 h1{
     text-align: center;
-    font-size: 3em;
+    margin: auto 0;
+    font-size: 2em;
 }
 ol{
-    font-size: 2em;
+    font-size: 4em;
     font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    text-align: left;
+    margin:10px;
+}
+.child{
+    height: 500px;
+    padding-right: 20px;
+    display: inline-block;
+    background-color: rgb(252, 252, 173);
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.header{
+    padding: 10px;
+    background-color: rgb(208, 235, 235);
+    height: 50px;
+    border-radius: 20px;
 }
